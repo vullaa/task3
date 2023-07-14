@@ -1,0 +1,163 @@
+body{
+  display: flex;
+  justify-content: center;
+}
+
+.modalBackground {
+  position: fixed;
+  background-color: rgba(0,0,0,0.5);
+  left: 0;
+  right: 0;
+  top:0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modalContainer {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #1a1e1f;
+  background-color: #fff;
+  width: 50%;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.openModalBtn {
+  margin: 5% 40% ;
+  width: 100%;
+  color: #fff;
+  background-color: #636c6e;
+  border: none;
+  border-radius: 7px;
+  height: 35px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 3% 3% 5% 0;
+}
+
+.top h1 {
+  margin-left: 5%;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+#btn {
+  border: none;
+  background-color: #fff;
+  color: #2072ef;
+  cursor: pointer;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+}
+
+.fontc {
+  margin: 0 3%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fontc h3 {
+  font-weight: 500;
+}
+
+.color {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.color h3 {
+  font-weight: 200;
+}
+
+.btn {
+  background-color: #444444;
+  margin: 5px;
+  width: 50px;
+  height: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.two {
+  background-color: #ffffff;
+  border: 1px solid #061b1f;
+}
+
+.three {
+  background-color: #2072ef;
+}
+
+.four {
+  background-color: #0053d1;
+}
+
+hr {
+  margin: 0 3%;
+  border: 1px solid #d4dadbcd;
+}
+
+.footer {
+  display: flex;
+  margin: 3%;
+  align-items: flex-end;
+  justify-content: flex-end;
+  gap: 3%;
+}
+
+.cancel {
+  height: 40px;
+  width: 80px;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid #636c6e;
+  cursor: pointer;
+}
+
+.save {
+  height: 40px;
+  width: 80px;
+  background-color: #2072ef;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+  .modalContainer {
+    width: 60%;
+  }
+  .openModalBtn{
+    margin: 5% 35%;
+  }
+}
+
+@media (max-width: 900px) {
+  .modalContainer {
+    width: 70%;
+  }
+  .openModalBtn{
+    margin: 5% 25%;
+  }
+}
+
+@media (max-width: 600px) {
+  .modalContainer {
+    width: 80%;
+  }
+}
